@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>E-educate</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="./Image2/img10.jpg">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+<p>
+	
+	E-educate
+	
+
+</p>
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="login.html">Login</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./Image2/download (1).png">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./Image2/download.png">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./Image2/images.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="My First Post">E - educate </a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">What is e-learning?</p>
+			</footer>
+			<content>
+<p>Understanding eLearning is simple. eLearning is learning utilizing electronic technologies to access educational curriculum outside of a traditional classroom.  In most cases, it refers to a course, program or degree delivered completely online.
+
+	There are many terms used to describe learning that is delivered online, via the internet, ranging from Distance Education, to computerized electronic learning, online learning, internet learning and many others. We define eLearning as courses that are specifically delivered via the internet to somewhere other than the classroom where the professor is teaching. It is not a course delivered via a DVD or CD-ROM, video tape or over a television channel. It is interactive in that you can also communicate with your teachers, professors or other students in your class. Sometimes it is delivered live, where you can “electronically” raise your hand and interact in real time and sometimes it is a lecture that has been prerecorded. There is always a teacher or professor interacting /communicating with you and grading your participation, your assignments and your tests. eLearning has been proven to be a successful method of training and education is becoming a way of life for many citizens in North Carolina.
+
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="Pathway Programme">Advantages of e-learning.</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">E-educate</p>
+			</footer>
+			<content>
+<p>The online learning style is best suited for all. This is a revolution in learning genre. The information, now, can be accessed, talked, absorbed and shared anywhere. E-Learning has made education easy for everyone including office-goers, housewives etc  without compromising much.
+
+	E-Learning is effective and powerful. It makes information easy to grasp and absorb. It imparts enhanced ability to learn and implement among the learners. The Audio-Visuals help in remembering knowledge for a longer time.
+	E-Learning let you be in sync with modern learners. This keeps you updated with the current trends.
+	Traditional classrooms, have mischievous elements to disturb the class. Whereas, eLearning provides expeditious delivery of lessons. There is no procrastinator in eLearning. It is a quick way of learning!
+	Lectures can be taken at any time and any number of times. In traditional classes, revisions are not that easy. Unlike traditional learning, if you have missed any lesson, you can always have it online.
+	E-Learning allows teachers a higher degree of coverage to deliver the content regularly. This ensures consistency in learning.
+	E-Learning is cost-effective as this method quick and easy. Long training period, infrastructure, stationary, travel expense etc is reduced.
+	It is a benefactor to those who feel nervous and disconnected in groups. It helps you learn without having to give up the comforts of the environment you are at ease with.
+We focus in giving you the best.
+
+</p>
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Join us today!</h3>
+		<p>Embark on an exciting learning journey with e-educate</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Your Boardroom Qualification</h3>
+		<p>A Degree to stand out from the crowd…...</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Be ahead of your peers</h3>
+		<p>Fast track your education with e-educate</p>
+	</article>
+</aside>
+<footer class="mainFooter">
+	<p> Thank you for visiting "E-Educate"</p>
+	<center>
+	<a href="">Facebook</a>
+	<a href="">Twitter</a>
+	<a href="">Youtube</a>
+	</center>
+</footer>
+
+</body>
+</html>
